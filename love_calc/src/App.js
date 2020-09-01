@@ -30,17 +30,17 @@ class App extends React.Component {
 			<div className="App">
 				<form>
 					<input
-						type="string"
+						type="text"
 						name="firstName"
 						value={this.state.data.firstName}
-						onChange={this.handleChanges}
+                        onChange={this.handleChanges}
 						placeholder="First Name"
 					/>
 					<input
-						type="string"
+						type="text"
 						name="secondName"
 						value={this.state.data.secondName}
-						onChange={this.handleChanges}
+                        onChange={this.handleChanges}
 						placeholder="Second Name"
 					/>
 				</form>

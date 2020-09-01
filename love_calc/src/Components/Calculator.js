@@ -44,6 +44,8 @@ class Calculator extends React.Component {
         return (
             <div>
                 <button onClick={this.getTheData}>GET DATA</button>
+                <h2> {this.state.data.result} </h2>
+                <h2>Chances of Successful Relationship: {this.state.data.percentage}% </h2>
             </div>
         )
     }
